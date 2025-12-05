@@ -18,7 +18,7 @@ def get_grade(average):
         return "F"
 
 def is_pass(average):
-    return average >= 50
+    return average >60
 
 
 if __name__ == "__main__":
